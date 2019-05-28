@@ -25,8 +25,8 @@ create_database()
 ###     Keep State/City/Park in a single table, to maintain the relationship between City and Park
 ###     Sample queries:
 ###         1. All Parks in a State:
-###             a. SELECT * from STATE_CITY_PARK where State = {state}
+###             a. SELECT * from STATE_CITY_PARK where State = {state};
 ###         2. All Parks in a City:
-###             a. SELECT * from STATE_CITY_PARK where City =  {city}
+###             a. SELECT * from STATE_CITY_PARK where City =  {city};
 ###         3. Which City, State is a Park located:
-###             a. SELECT City, State from STATE_CITY_PARK where Park = {park}
+###             a. SELECT City, State from STATE_CITY_PARK where Park = {park};
